@@ -1,0 +1,234 @@
+
+while True:
+
+    print("\n========================================")
+    print("          PYTHON LEARNING HUB")
+    print("========================================")
+    print("[1] PRELIM")
+    print("[2] MIDTERM")
+    print("[3] FINALS")
+    print("[4] EXIT")
+
+    choice = input("Enter your choice: ")
+
+    # ====================================
+    # PRELIM LESSON
+    # ====================================
+
+    if choice == "1":
+
+        while True:
+            print("\n========== PRELIM LESSON ==========")
+            print("[1] Fundamentals of Programming")
+            print("[2] Python Basic Syntax")
+            print("[3] Printing Output")
+            print("[4] Variables and Constants")
+            print("[5] Basic Data Types")
+            print("[6] Arithmetic Operators")
+            print("[7] Basic Input and Output")
+            print("[8] Arithmetic Expressions")
+            print("[9] BACK")
+
+            lesson = input("Choose a lesson: ")
+
+            if lesson == "1":
+                print("\nFUNDAMENTALS OF PROGRAMMING")
+                print("Programming is the process of creating")
+                print("instructions that tell a computer what to do.")
+                print("Python is a programming language.")
+
+            elif lesson == "2":
+                print("\nPYTHON BASIC SYNTAX")
+                print("Syntax refers to the rules of writing")
+                print("Python code correctly.")
+                print("\nExample:")
+                print('print("Hello World")')
+
+            elif lesson == "3":
+                print("\nPRINTING OUTPUT")
+                print("The print() function displays information")
+                print("on the computer screen.")
+                print("\nExample:")
+                print('print("Welcome to Python")')
+
+            elif lesson == "4":
+                print("\nVARIABLES AND CONSTANTS")
+                print("Variables store values that can change.")
+                print("Constants represent values intended")
+                print("to remain unchanged.")
+                print("\nExample:")
+                print('name = "Michael"')
+                print("age = 17")
+                print("PI = 3.14")
+
+            elif lesson == "5":
+                print("\nBASIC DATA TYPES")
+                print("String (str) - Text")
+                print("Integer (int) - Whole numbers")
+                print("Float (float) - Decimal numbers")
+                print("Boolean (bool) - True or False")
+                print("\nExample:")
+                print('name = "John"')
+                print("age = 18")
+                print("grade = 95.5")
+                print("passed = True")
+
+            elif lesson == "6":
+                print("\nARITHMETIC OPERATORS")
+                print("+ Addition")
+                print("- Subtraction")
+                print("* Multiplication")
+                print("/ Division")
+                print("// Floor Division")
+                print("% Modulus")
+                print("** Exponent")
+                print("\nExample:")
+                print("print(10 + 5)")
+
+            elif lesson == "7":
+                print("\nBASIC INPUT AND OUTPUT")
+                print("input() accepts information from the user.")
+                print("print() displays information.")
+                print("\nExample:")
+                print('name = input("Enter your name: ")')
+                print('print("Hello", name)')
+
+            elif lesson == "8":
+                print("\nARITHMETIC EXPRESSIONS")
+                print("Arithmetic expressions combine numbers,")
+                print("variables, and operators to get a result.")
+                print("\nExample:")
+                print("a = 10")
+                print("b = 5")
+                print("result = (a + b) * 2")
+                print("print(result)")
+
+            elif lesson == "9":
+                break
+
+            else:
+                print("Invalid choice! Please try again.")
+
+    # ====================================
+    # MIDTERM LESSON
+    # ====================================
+
+    elif choice == "2":
+
+        while True:
+            print("\n========== MIDTERM LESSON ==========")
+            print("[1] Conditional Statement")
+            print("[2] If-Elif-Else Statement")
+            print("[3] Logical Operator")
+            print("[4] BACK")
+
+            lesson = input("Choose a lesson: ")
+
+            if lesson == "1":
+                print("\nCONDITIONAL STATEMENT")
+                print("Conditional statements allow a program")
+                print("to make decisions based on conditions.")
+                print("\nExample:")
+                print("age = 18")
+                print("if age >= 18:")
+                print('    print("Adult")')
+
+            elif lesson == "2":
+                print("\nIF-ELIF-ELSE STATEMENT")
+                print("This statement checks multiple conditions.")
+                print("\nExample:")
+                print("grade = 90")
+                print("if grade >= 90:")
+                print('    print("Excellent")')
+                print("elif grade >= 75:")
+                print('    print("Passed")')
+                print("else:")
+                print('    print("Failed")')
+
+            elif lesson == "3":
+                print("\nLOGICAL OPERATORS")
+                print("AND - Both conditions must be true.")
+                print("OR - At least one condition must be true.")
+                print("NOT - Reverses the condition.")
+                print("\nExample:")
+                print("age = 18")
+                print("has_id = True")
+                print("if age >= 18 and has_id:")
+                print('    print("Access Granted")')
+
+            elif lesson == "4":
+                break
+
+            else:
+                print("Invalid choice! Please try again.")
+
+    # ====================================
+    # FINALS LESSON
+    # ====================================
+
+    elif choice == "3":
+
+        while True:
+            print("\n========== FINALS LESSON ==========")
+            print("[1] Introduction to Iteration and Loop")
+            print("[2] For Loop")
+            print("[3] While Loop")
+            print("[4] Break and Continue")
+            print("[5] BACK")
+
+            lesson = input("Choose a lesson: ")
+
+            if lesson == "1":
+                print("\nINTRODUCTION TO ITERATION AND LOOP")
+                print("Iteration is the process of repeating")
+                print("instructions in a program.")
+                print("Loops help avoid writing the same code")
+                print("many times.")
+
+            elif lesson == "2":
+                print("\nFOR LOOP")
+                print("A for loop repeats instructions for")
+                print("each item in a sequence.")
+                print("\nExample:")
+                print("for number in range(1, 6):")
+                print("    print(number)")
+
+            elif lesson == "3":
+                print("\nWHILE LOOP")
+                print("A while loop repeats instructions")
+                print("as long as its condition is True.")
+                print("\nExample:")
+                print("count = 1")
+                print("while count <= 5:")
+                print("    print(count)")
+                print("    count += 1")
+
+            elif lesson == "4":
+                print("\nBREAK AND CONTINUE")
+                print("BREAK - Stops the loop immediately.")
+                print("CONTINUE - Skips the current iteration.")
+                print("\nExample:")
+                print("for number in range(1, 6):")
+                print("    if number == 3:")
+                print("        continue")
+                print("    if number == 5:")
+                print("        break")
+                print("    print(number)")
+
+            elif lesson == "5":
+                break
+
+            else:
+                print("Invalid choice! Please try again.")
+
+    # ====================================
+    # EXIT
+    # ====================================
+
+    elif choice == "4":
+        print("\nThank you for using PYTHON LEARNING HUB!")
+        print("Keep learning Python!")
+        break
+
+    else:
+        print("Invalid choice! Please try again.")
